@@ -17,7 +17,7 @@ describe('GIVEN function injectStar', function() {
 
   it('WHEN string is not empty and has two pairs THEN should return appropriate string', function() {
     const input = 'xxyy';
-    const output = 'xx*yy';
+    const output = 'x*xy*y';
     expect(injectStar(input)).to.eql(output);
   });
 
