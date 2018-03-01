@@ -7,10 +7,13 @@ const reverseYolo = input => {
   return _.chain(input)
     .fromPairs()
     .reduce(_.multiply, 1)
+    // .reduce((acc, value) => {
+    //   return _.multiply(acc, value);
+    // }, 1)
     .value();
-}
+};
 
 module.exports = {
   reverseYolo: reverseYolo,
   run: reverseYolo
-}
+};

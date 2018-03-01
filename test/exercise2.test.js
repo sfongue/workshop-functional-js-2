@@ -5,8 +5,7 @@ describe('GIVEN function reverseYolo', function() {
 
   it('WHEN my mystery input THEN my wonderful output', function() {
 
-    // Your future job begins here ...
-    let whereIsMyMind = '???';
+    let whereIsMyMind = [['a', 9], ['b', 10], ['c', 4]];
 
     expect(whereIsMyMind).to.have.lengthOf(3);
 
